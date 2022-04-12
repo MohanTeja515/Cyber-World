@@ -88,9 +88,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Cyber World',
+        'NAME': '',
         'USER': 'postgres',
-        'PASSWORD': 'Padma815$',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
@@ -101,9 +101,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 EMAIL_PORT = 587
 
-EMAIL_HOST_USER = 'cyberworldofficialsite@gmail.com'
+EMAIL_HOST_USER = ''
 
-EMAIL_HOST_PASSWORD = 'dwfrrjsawwthjjof'
+EMAIL_HOST_PASSWORD = ''
 
 EMAIL_USE_TLS = True
 
